@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
-
 import numpy as np
 import cv2
 import os
 import matplotlib.image as mpimg
+import math 
+
 from moviepy.editor import VideoFileClip
-import math
+
 
 def interested_region(img, vertices):
     if len(img.shape) > 2: 
